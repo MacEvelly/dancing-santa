@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react"
 import { useGLTF } from "@react-three/drei/useGLTF"
-import { RoundedBox, Text, useAnimations } from "@react-three/drei"
+import { useAnimations } from "@react-three/drei"
 import MyButton from "./Buttons"
 
 export default function SantaDance(props) {
@@ -18,7 +18,7 @@ export default function SantaDance(props) {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      {names.map((text, i) => <MyButton myID={i} myText={text} myClick={onClick} />)}
+      {names.map((text, i) => <MyButton key={`button_${i}`} myID={i} myText={text} myClick={onClick} />)}
       <group position={[0, 0, 0]} scale={[0.01, 0.01, 0.01]}>
         <primitive object={nodes.mixamorigHips} />
         <skinnedMesh

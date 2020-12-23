@@ -8,7 +8,7 @@ export default function MyButton({ myID, myText, myClick }) {
 
   const y = 0.15 + 0.27 * myID
   return (
-    <group position={[1.2, y, -0.7]}>
+    <group position={[1, y, -0.7]}>
       <RoundedBox
         castShadow
         receiveShadow
@@ -16,6 +16,8 @@ export default function MyButton({ myID, myText, myClick }) {
         onPointerOut={() => setHovered(false)}
         scale={hovered ? [1.1,1.1,1]:[1,1,1]}
         onClick={() => myClick(myID)}
+        onTap={() => myClick(myID)}
+        onPointerDown={() => myClick(myID)}
         args={[1, 0.15, 0.05]} // Width, Height and Depth of the box
         radius={0.05} // Border-Radius of the box
         smoothness={2} // Optional, number of subdivisions
