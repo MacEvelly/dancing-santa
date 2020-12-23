@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dancing-santa/static/css/main.09b8f232.chunk.css",
-    "main.js": "/dancing-santa/static/js/main.bd58ade9.chunk.js",
-    "main.js.map": "/dancing-santa/static/js/main.bd58ade9.chunk.js.map",
+    "main.js": "/dancing-santa/static/js/main.be8c86e4.chunk.js",
+    "main.js.map": "/dancing-santa/static/js/main.be8c86e4.chunk.js.map",
     "runtime-main.js": "/dancing-santa/static/js/runtime-main.2c5d8f28.js",
     "runtime-main.js.map": "/dancing-santa/static/js/runtime-main.2c5d8f28.js.map",
     "static/js/2.89e25ace.chunk.js": "/dancing-santa/static/js/2.89e25ace.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2c5d8f28.js",
     "static/js/2.89e25ace.chunk.js",
     "static/css/main.09b8f232.chunk.css",
-    "static/js/main.bd58ade9.chunk.js"
+    "static/js/main.be8c86e4.chunk.js"
   ]
 }
